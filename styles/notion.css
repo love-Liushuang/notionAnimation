@@ -388,3 +388,7 @@
 .notion-collection-row-body .notion-collection-row-property:first-child .notion-property.notion-property-text{
   font-size: 2.5em;
 }
+
+.notion-aside .notion-aside-table-of-contents-header {
+  display: none;
+}
