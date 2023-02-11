@@ -199,7 +199,9 @@ export const NotionPage: React.FC<types.PageProps> = ({
     ),
     [block, recordMap, isBlogPost]
   )
-
+  console.log('notion----- pageAside', {
+    pageAside: pageAside,
+  })
   const footer = React.useMemo(() => <Footer />, [])
 
   if (router.isFallback) {
